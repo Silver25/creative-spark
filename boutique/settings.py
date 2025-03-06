@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-asg&djpuw=$z)u84%tw)ra2eo6%5j(kdmx$m9h6hewog(0ggkv
 # SECURITY WARNING: don't run with debug turned on in production!
 # Allows error messages to be displayed in the process of dev and testing.
 # CommandError: If DEBUG is False you must set 'settings.ALLOWED_HOSTS'.
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1',]
 
