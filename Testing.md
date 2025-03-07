@@ -13,6 +13,8 @@ Primarily, a foundational understanding of the Python environment and Django tem
 - After every new function, variable or template tag, testing was provided through checking result with running server
 - Setup of Project 'Boutique' and creating Superuser to be able to access Admin area
 ![Django Admin Interface](02-django-admin.png)
+- Installation of the Allauth app and required fields in the Admin area
+![Admin area with allauth fields](03-django-admin-allauth.png)
 - *Tested Content*: 
 - Before adding actual content, inserted some test content into HTML file and run it in web browser to ensure that the code is working as expected.
 - *User Interface (UI)*: 
