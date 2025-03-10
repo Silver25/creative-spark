@@ -4,6 +4,11 @@ In this section, you will include one or two paragraphs providing an overview of
 
 ![Responsive Mockup](https://github.com/Silver25/)
 
+## User Stories
+- User Stories created on [GitHub Kanban Board](https://github.com/users/Silver25/projects/7)  
+&nbsp;  
+![User story label attached to card](Ωssets-readme/04-userstory-label-attached.png)
+
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -88,10 +93,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Credits 
 
-https://docs.djangoproject.com/en/5.1/intro/tutorial01/
-https://www.askpython.com/django/django-app-structure-project-structure
-https://dev.to/digvijay_singhrajput/django-file-structure-for-developers-4i68
-https://www.geeksforgeeks.org/how-to-create-an-app-in-django/
+https://docs.djangoproject.com/en/5.1/intro/tutorial01/  
+https://www.askpython.com/django/django-app-structure-project-structure  
+https://dev.to/digvijay_singhrajput/django-file-structure-for-developers-4i68  
+https://www.geeksforgeeks.org/how-to-create-an-app-in-django/  
  
 
 ### Content 
