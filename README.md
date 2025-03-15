@@ -109,3 +109,12 @@ https://www.geeksforgeeks.org/how-to-create-an-app-in-django/
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
+
+### Tools
+
+- [WinMerge](https://winmerge.org/?lang=en) is an Open Source differencing and merging tool - Text comparison
+- [Google Translate](https://translate.google.com/) - translation of the text
+- [GrammarCheck](https://www.grammarcheck.net/editor/) - internet's first online grammar checker
+- [Perplexity](https://www.perplexity.ai/) - answer engine, searches the internet to deliver fast, clear answers
+- [IrfanView]
+- [Quillbot](https://quillbot.com/grammar-check) - free online AI grammar checker tool
