@@ -6,7 +6,6 @@ In this section, you will include one or two paragraphs providing an overview of
 
 ## User Stories
 - User Stories created on [GitHub Kanban Board](https://github.com/users/Silver25/projects/7)  
-&nbsp;  
 ![User story label attached to card](Ωssets-readme/04-userstory-label-attached.png)
 
 ## Features 
