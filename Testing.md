@@ -9,14 +9,16 @@ Primarily, a foundational understanding of the Python environment and Django tem
 **Testing Process:**  
 - *Tested Code*:  
 - Project was started as a Python code with Django framework to be used for templating and administration of applications  
-![Django installed with success](01-django-installation.png)
+![Django installed with success](Ωssets-readme/01-django-installation.png)
 - After every new function, variable or template tag, testing was provided through checking result with running server
 - Setup of Project 'Boutique' and creating Superuser to be able to access Admin area
-![Django Admin Interface](02-django-admin.png)
+![Django Admin Interface](Ωssets-readme/02-django-admin.png)
 - Installation of the Allauth app and required fields in the Admin area
-![Admin area with allauth fields](03-django-admin-allauth.png)
+![Admin area with allauth fields](Ωssets-readme/03-django-admin-allauth.png)
 - *Tested Content*: 
 - Before adding actual content, inserted some test content into HTML file and run it in web browser to ensure that the code is working as expected.
+- First draft of the Home page for Django e-commerce project to test functionality of the code, views, urls and related wireing in settings.py file
+![Home (Landing) page](Ωssets-readme/testing/home-page-first-draft.png)
 - *User Interface (UI)*: 
 - Verified the layout, visual design, and overall user experience. Checked for consistent formatting, proper image loading, and readability across different screen sizes.
 - *Readability*: 

@@ -26,7 +26,7 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/Silver25/)
+![alt text](image.png)
 
 - __Club Ethos Section__
 
