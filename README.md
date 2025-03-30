@@ -106,8 +106,7 @@ https://www.geeksforgeeks.org/how-to-create-an-app-in-django/
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The main header image used for the dev page taken from: <a href="https://www.freepik.com/free-photo/many-colorful-beads-plier-wooden-desk_4635908.htm"> freepik</a>
 
 ### Tools
 
