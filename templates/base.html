@@ -1,9 +1,10 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
   <head>
 
     {% block meta %}
-        <!-- first meta allow support of older IE versions and eliminate validation errors when validating HTML -->
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +32,15 @@
   </head>
   <body>
 
-    <header class="container-fluid fixed-top"></header>
+    <header class="container-fluid fixed-top">
+      <div class="row">
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+          <a href="{% url 'home' %}" class="nav-link main-logo-link">
+            <h2 class="logo-font text-black my-0"><strong>Boutique</strong> Fatique</h2>
+          </a>
+        </div>
+      </div>
+    </header>
 
     {% if messages %}
         <div class="message-container"></div>
