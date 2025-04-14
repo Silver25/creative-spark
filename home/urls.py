@@ -11,7 +11,7 @@ Modules:
     - django.urls: Contains tools to define URL patterns.
     - views: Contains the view functions for the app.
 """
-from django.contrib import admin
+
 from django.urls import path
 from . import views
 
