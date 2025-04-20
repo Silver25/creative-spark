@@ -28,7 +28,9 @@
             <div class="col">
 
                 <div class="card-body pb-0"><!-- container with the product name -->
+                    {% for product in products %}
                     <p class="mb-0">{{ product.name }}</p>
+                    {% endfor %}
                 </div>
 
             </div>
