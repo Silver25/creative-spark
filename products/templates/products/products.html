@@ -17,17 +17,18 @@
     
     <div class="container">
 
-        <div class="row"><!-- row with the page header -->
+        <div class="row"><!-- first product page row with the page header -->
             <div class="col">
                 <h2 class="logo-font">Products</h2>
                 <hr class="w-50 mb-1">
             </div>
         </div>
 
-        <div class="row"><!-- row with the products info -->
-            <div class="col">
+        <div class="row"><!-- second product page row with main container contains products info -->
+            <div class="product-container col-10 offset-1">
+                <div class="row mt-1 mb-2"></div>
 
-                <div class="card-body pb-0"><!-- container with the product name -->
+                <div class="row"><!-- container with the product name -->
                     {% for product in products %}
 
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3"><!-- single product column container -->
@@ -59,6 +60,7 @@
 
                         </div>
                     </div>
+
                     {% endfor %}
                 </div>
 
