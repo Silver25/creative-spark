@@ -70,9 +70,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - Another feature ideas
 
-## Testing 
+## Testing and Bugs
 
-- Results of testing available on another file [Testing.md file](Testing.md) 
+- Results of testing or bugs that appear available on another file [Testing.md file](Testing.md) 
 
 ## Deployment
 
