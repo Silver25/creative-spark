@@ -16,11 +16,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="necklace-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Necklaces
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-0" aria-labelledby="necklace-link">
                 <a href="" class="dropdown-item">Necklace 1</a>
                 <a href="" class="dropdown-item">Necklace 2</a>
                 <a href="" class="dropdown-item">Necklace 3</a>
-                <a href="" class="dropdown-item">All Necklaces</a>
+                <a href="{% url 'products' %}?category=necklaces" class="dropdown-item">All Necklaces</a>
             </div>
         </li>
 
@@ -28,11 +28,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="earring-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Earrings
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+            <div class="dropdown-menu border-0" aria-labelledby="earring-link">
                 <a href="" class="dropdown-item">Earring 1</a>
                 <a href="" class="dropdown-item">Earring 2</a>
                 <a href="" class="dropdown-item">Earring 3</a>
-                <a href="" class="dropdown-item">All Earrings</a>
+                <a href="{% url 'products' %}?category=earrings" class="dropdown-item">All Earrings</a>
             </div>
         </li>
 
@@ -40,11 +40,11 @@
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="crafts-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Crafts
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+            <div class="dropdown-menu border-0" aria-labelledby="crafts-link">
                 <a href="" class="dropdown-item">Crafts 1</a>
                 <a href="" class="dropdown-item">Crafts 2</a>
                 <a href="" class="dropdown-item">Crafts 3</a>
-                <a href="" class="dropdown-item">All Crafts</a>
+                <a href="{% url 'products' %}?category=crafts" class="dropdown-item">All Crafts</a>
             </div>
         </li>
     </ul>
