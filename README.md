@@ -68,7 +68,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature ideas
+- 'Add to Cart' feature for single product to send to Cart, without quantity option 
 
 ## Testing and Bugs
 
@@ -100,9 +100,9 @@ https://www.geeksforgeeks.org/how-to-create-an-app-in-django/
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for some product details adjusted from a [Wikipedia](https://www.wikipedia.org/) articles
+- Instruction for some Django tags used from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons on the site were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
