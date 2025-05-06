@@ -52,6 +52,8 @@ Primarily, a foundational understanding of the Python environment and Django tem
 
 - Missing table to display 'Products' page, RESOLVED with migrations to create tables in DB.
 ![Missing table to display 'Products' page](Ωssets-readme/bugs/missing-products-table.png)
+- Error because 'cart_tools' is not a registered as a tag library, when try to access 'checkout' page
+!['cart_tools' is not a registered](Ωssets-readme/bugs/not-registered-tag-library.png)
 
 ### Unfixed Bugs
 
