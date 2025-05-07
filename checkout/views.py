@@ -15,8 +15,8 @@ def checkout(request):
         messages.error(request, "There's nothing in cart at the moment")
         return redirect(reverse('products'))
 
-    current_bag = bag_contents(request)
-    total = current_bag['grand_total']
+    current_cart = cart_contents(request)
+    total = current_cart['grand_total']
     stripe_total = round(total * 100)
 
     stripe.api_key = stripe_secret_key
@@ -25,14 +25,12 @@ def checkout(request):
         currency=settings.STRIPE_CURRENCY,
     )
 
-    print(intent)
-
     order_form = OrderForm()
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': 'pk_test_51RLpIhCyGRl4qoSjxoCY5BupZEGIFvzmuc3nnb8gZiCFTmEaXHT1GpuMm85GVEjOMxE04kiQP11U0DAef6TV2i7V00vDGrVPg3',
-        'client_secret': 'test client secret',
+        'stripe_public_key': stripe_public_key,
+        'client_secret': 'intent.client_secret',
     }
 
     return render(request, template, context)
