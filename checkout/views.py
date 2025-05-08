@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 from django.conf import settings
 from .forms import OrderForm
+from .models import Order, OrderLineItem
+from products.models import Product
 from cart.contexts import cart_contents
 import stripe
 
