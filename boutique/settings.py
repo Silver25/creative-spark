@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # CommandError: If DEBUG is False you must set 'settings.ALLOWED_HOSTS'.
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1',]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost',]
 
 
 # Application definition
