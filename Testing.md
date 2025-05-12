@@ -54,6 +54,8 @@ Primarily, a foundational understanding of the Python environment and Django tem
 ![Missing table to display 'Products' page](Ωssets-readme/bugs/missing-products-table.png)
 - Error because 'cart_tools' is not a registered as a tag library, when try to access 'checkout' page
 !['cart_tools' is not a registered](Ωssets-readme/bugs/not-registered-tag-library.png)
+- AttributeError 'cart' - event_handler event displays, even after processed order, RESOLVED changing view 'cache_checkout_data' wrong name
+![AttributeError 'cart'](Ωssets-readme/bugs/attributeerror-cart-eventhandler.png)
 
 ### Unfixed Bugs
 
