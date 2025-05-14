@@ -22,11 +22,11 @@
 
                 <div class="image-container my-5">
                     {% if product.image %}<!-- contains the product image -->
-                        <a href="#" onClick="window.open('{{ product.image.url }}', '_blank')">
+                        <a href="{{ product.image.url }}">
                             <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                         </a>
                         {% else %}
-                        <a href="{{ product.image.url }}" target="_blank" rel="noopener">
+                        <a href="">
                             <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                         </a>
                     {% endif %}

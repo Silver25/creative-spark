@@ -63,8 +63,11 @@ Primarily, a foundational understanding of the Python environment and Django tem
 - AttributeError 'cart' - event_handler event displays, even after processed order, RESOLVED changing view 'cache_checkout_data' wrong name
 ![AttributeError 'cart'](Ωssets-readme/bugs/attributeerror-cart-eventhandler.png)
 - RelatedObjectDoesNotExist error - new app 'profiles' overrides existing superuser profile with try out of saving unknown profile
-- Error resolved with created new superuser and deleted old one
+- Error RESOLVED with created new superuser and deleted old one
 ![Superuser login doesn't work](Ωssets-readme/bugs/RelatedObjectDoesNotExist.png)
+- Error 'The 'image' attribute has no file associated with it.' raised when try to open new added product without image
+- RESOLVED with replacing Django tags between 'image' and 'no-image' references
+![Error when open product page without image](Ωssets-readme/bugs/no-image-single-product-page.png)
 
 ### Unfixed Bugs
 
