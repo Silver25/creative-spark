@@ -31,8 +31,12 @@ Primarily, a foundational understanding of the Python environment and Django tem
 - Reviewed all website content for accuracy, grammar, and spelling mistakes. Verified that descriptions and other information are up-to-date and consistent.
 - *Responsiveness*: 
 - Validated responsiveness of the website loading Dev Tools option of split screen and resized the browser window across different browsers.
+- *Feature - email confirmation*
 - Email confirmation for the order, sent to Terminal
-![Terminal confirmation email](terminal-confirmation-email.png)
+![Terminal confirmation email](Ωssets-readme/testing/terminal-confirmation-email.png)
+- *Feature - Product Management*
+- Add product feature for Admin raised Error message with too long price value
+![Raised Error msg in form validation](Ωssets-readme/testing/add-product-error-price-issue.png)
 ---
 
 
