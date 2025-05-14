@@ -15,25 +15,38 @@ Primarily, a foundational understanding of the Python environment and Django tem
 ![Django Admin Interface](Ωssets-readme/02-django-admin.png)
 - Installation of the Allauth app and required fields in the Admin area
 ![Admin area with allauth fields](Ωssets-readme/03-django-admin-allauth.png)
+
 - *Tested Content*: 
 - Before adding actual content, inserted some test content into HTML file and run it in web browser to ensure that the code is working as expected.
 - First draft of the Home page for Django e-commerce project to test functionality of the code, views, urls and related wireing in settings.py file
 ![Home (Landing) page](Ωssets-readme/testing/home-page-first-draft.png)
+
 - *User Interface (UI)*: 
 - Verified the layout, visual design, and overall user experience. Checked for consistent formatting, proper image loading, and readability across different screen sizes.
+
 - *Readability*: 
 - Examined displayed text (font family, font size, color contrast).
+
 - *Navigation*: 
 - Tested all navigation elements like menus, buttons, and links. Ensured they lead to the correct destination pages and function smoothly.
+
 - *Forms & Functionality*: 
 - Tested form (contact) to be sure it submit data correctly, provide clear error messages for invalid inputs, and follow expected functionalities, sending data.
+
 - *Content Accuracy*: 
 - Reviewed all website content for accuracy, grammar, and spelling mistakes. Verified that descriptions and other information are up-to-date and consistent.
+
 - *Responsiveness*: 
 - Validated responsiveness of the website loading Dev Tools option of split screen and resized the browser window across different browsers.
+
 - *Feature - email confirmation*
 - Email confirmation for the order, sent to Terminal
 ![Terminal confirmation email](Ωssets-readme/testing/terminal-confirmation-email.png)
+
+- *Feature - login Admin*
+- Admin/superuser - login with success
+![Admin login successful](Ωssets-readme/testing/login-admin-success.png)
+
 - *Feature - Product Management*
 - Add product feature for Admin raised Error message with too long price value
 ![Raised Error msg in form validation](Ωssets-readme/testing/add-product-error-price-issue.png)
