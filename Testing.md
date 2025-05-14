@@ -39,6 +39,8 @@ Primarily, a foundational understanding of the Python environment and Django tem
 ![Raised Error msg in form validation](Ωssets-readme/testing/add-product-error-price-issue.png)
 - Add product feature - success message
 ![Add product through Product Management success](Ωssets-readme/testing/add-product-success.png)
+- Edit product feature - success message
+![Edit product with success](Ωssets-readme/testing/edit-product-success.png)
 ---
 
 
