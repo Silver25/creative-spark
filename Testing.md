@@ -41,6 +41,8 @@ Primarily, a foundational understanding of the Python environment and Django tem
 ![Add product through Product Management success](Ωssets-readme/testing/add-product-success.png)
 - Edit product feature - success message
 ![Edit product with success](Ωssets-readme/testing/edit-product-success.png)
+- Delete product feature - success message
+![Delete product with success](Ωssets-readme/testing/delete-product-success.png)
 ---
 
 
