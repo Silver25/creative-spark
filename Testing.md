@@ -37,6 +37,8 @@ Primarily, a foundational understanding of the Python environment and Django tem
 - *Feature - Product Management*
 - Add product feature for Admin raised Error message with too long price value
 ![Raised Error msg in form validation](Ωssets-readme/testing/add-product-error-price-issue.png)
+- Add product feature - success message
+![Add product through Product Management success](Ωssets-readme/testing/add-product-success.png)
 ---
 
 
