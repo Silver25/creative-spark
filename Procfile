@@ -1,1 +1,1 @@
-web: gunicorn creative-bliss.wsgi:application
+web: gunicorn boutique.wsgi:application
