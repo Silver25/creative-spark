@@ -10,15 +10,15 @@ Primarily, a foundational understanding of the Python environment and Django tem
 - *Tested Code*:  
 - Project was started as a Python code with Django framework to be used for templating and administration of applications  
 ![Django installed with success](Ωssets-readme/01-django-installation.png)
-- After every new function, variable or template tag, testing was provided through checking result with running server
-- Setup of Project 'Boutique' and creating Superuser to be able to access Admin area
+- After every new function, variable or template tag, testing was provided through checking result with running server  
+- Setup of Project 'Boutique' and creating Superuser to be able to access Admin area  
 ![Django Admin Interface](Ωssets-readme/02-django-admin.png)
-- Installation of the Allauth app and required fields in the Admin area
+- Installation of the Allauth app and required fields in the Admin area  
 ![Admin area with allauth fields](Ωssets-readme/03-django-admin-allauth.png)
 
 - *Tested Content*: 
-- Before adding actual content, inserted some test content into HTML file and run it in web browser to ensure that the code is working as expected.
-- First draft of the Home page for Django e-commerce project to test functionality of the code, views, urls and related wireing in settings.py file
+- Before adding actual content, inserted some test content into HTML file and run it in web browser to ensure that the code is working as expected.  
+- First draft of the Home page for Django e-commerce project to test functionality of the code, views, urls and related wireing in settings.py file  
 ![Home (Landing) page](Ωssets-readme/testing/home-page-first-draft.png)
 
 - *User Interface (UI)*: 
@@ -39,23 +39,30 @@ Primarily, a foundational understanding of the Python environment and Django tem
 - *Responsiveness*: 
 - Validated responsiveness of the website loading Dev Tools option of split screen and resized the browser window across different browsers.
 
-- *Feature - email confirmation*
-- Email confirmation for the order, sent to Terminal
+- *Feature - email confirmation*  
+- Email confirmation for the order, sent to Terminal  
 ![Terminal confirmation email](Ωssets-readme/testing/terminal-confirmation-email.png)
 
-- *Feature - login Admin*
-- Admin/superuser - login with success
+- *Feature - login Admin*  
+- Admin/superuser - login with success  
 ![Admin login successful](Ωssets-readme/testing/login-admin-success.png)
 
-- *Feature - Product Management*
-- Add product feature for Admin raised Error message with too long price value
+- *Feature - Product Management*  
+- Add product feature for Admin raised Error message with too long price value  
 ![Raised Error msg in form validation](Ωssets-readme/testing/add-product-error-price-issue.png)
-- Add product feature - success message
+- Add product feature - success message  
 ![Add product through Product Management success](Ωssets-readme/testing/add-product-success.png)
-- Edit product feature - success message
-![Edit product with success](Ωssets-readme/testing/edit-product-success.png)
-- Delete product feature - success message
-![Delete product with success](Ωssets-readme/testing/delete-product-success.png)
+- Edit product feature - success message  
+![Edit product with success](Ωssets-readme/testing/edit-product-success.png)  
+- Delete product feature - success message  
+![Delete product with success](Ωssets-readme/testing/delete-product-success.png)  
+
+- *Feature - Admin UI*
+- Add product/item with success through Admin interface/form  
+![Add new item](Ωssets-readme/testing/admin-add-new-item.png)
+
+- Feature Stripe payment - webhooks events
+![Stripe payment event pass](Ωssets-readme/testing/stripe-webhook-event-endpoint.png)
 ---
 
 
