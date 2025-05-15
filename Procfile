@@ -1,0 +1,1 @@
+web: gunicorn creative-bliss.wsgi:application
