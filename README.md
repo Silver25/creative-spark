@@ -4,7 +4,8 @@ In this section, you will include one or two paragraphs providing an overview of
 
 ![Responsive Mockup](https://github.com/Silver25/)  
 
-[Creative Bliss live site](https://creative-bliss-7f2ee6904dd8.herokuapp.com/)
+[Creative Bliss live site](https://creative-bliss-7f2ee6904dd8.herokuapp.com/)  
+[Creative Bliss Facebook page](https://www.facebook.com/people/Creative-Bliss/61573912296649/)
 
 ## User Stories
 - User Stories created on [GitHub Kanban Board](https://github.com/users/Silver25/projects/7)  
