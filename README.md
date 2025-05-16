@@ -91,6 +91,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - The live page on the location: https://github.com/Silver25/
 
+### Cloud Deployment
+- On Heroku create a new config variable 'EMAIL_HOST_PASS' and use Google app pwd as an value
+- Create variable 'EMAIL_HOST_USER' with Google email address as a value
+
 
 ## Credits 
 
