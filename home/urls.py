@@ -1,11 +1,12 @@
 """
 URL configuration for the Home app.
 
-This module defines the URL patterns for the application. 
+This module defines the URL patterns for the application.
 It includes the routes for the main home page.
 
 Routes:
-    - Home Page: Accessible at the root URL ('/'), handled by `views.index` view.
+    - Home Page: Accessible at the root URL ('/'),
+    handled by `views.index` view.
 
 Modules:
     - django.urls: Contains tools to define URL patterns.

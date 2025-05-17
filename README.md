@@ -242,9 +242,11 @@ https://www.geeksforgeeks.org/how-to-create-an-app-in-django/
 
 ### Tools
 
+- Microsoft [Visual Studio Code](https://code.visualstudio.com/) - as a great companion and helper through 'valley of the coding'
+- [Temporary Email Address](https://temp-mail.org/en/) - for testing purposes
 - [WinMerge](https://winmerge.org/?lang=en) is an Open Source differencing and merging tool - Text comparison
 - [Google Translate](https://translate.google.com/) - translation of the text
 - [GrammarCheck](https://www.grammarcheck.net/editor/) - internet's first online grammar checker
 - [Perplexity](https://www.perplexity.ai/) - answer engine, searches the internet to deliver fast, clear answers
-- [IrfanView]
+- [IrfanView](https://www.irfanview.com/) - one of the most popular viewers wrldwide, and really fast helper
 - [Quillbot](https://quillbot.com/grammar-check) - free online AI grammar checker tool
