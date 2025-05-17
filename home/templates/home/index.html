@@ -24,5 +24,39 @@
             </div>
         </div>
     </div>
+
+    <!-- footer class="footer mt-auto py-3" -->
+    <footer class="mt-auto text-black py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    &copy; 2025 by Author
+                    <p>
+                        <a href="https://cdn.websitepolicies.com/wp-content/uploads/2022/04/privacy-policy-template.pdf" target="_blank" rel="noopener" 
+                        aria-label="Privacy Policy document">Privacy Policy</a><br>
+                        <a href="https://cdn.websitepolicies.com/wp-content/uploads/2024/09/payment-terms-and-conditions-template.pdf" target="_blank" rel="noopener" 
+                        aria-label="Terms and Conditions for Your Business">Terms and Conditions</a><br>
+                        <a href="{% url 'admin:login' %}" target="_blank" aria-label="Administrative Entrance">Admin Login</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    Join our newsletter for updates!
+                    <form method="post">
+                    {{ newsletter_form | crispy }}
+                    {% csrf_token %}
+                        <button class="btn btn-black rounded-0" type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="fab col-md-4 mt-2 text-center">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square ms-5"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square ms-5"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-instagram-square ms-5"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square ms-5"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 {% endblock %}
