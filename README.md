@@ -1,19 +1,142 @@
 # Project Title
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+<details>
+<summary>Responsive visual <b style="color: yellow;">(open here)</b></summary>
+![Responsive Mockup](https://github.com/Silver25/)
+</details>
 
-![Responsive Mockup](https://github.com/Silver25/)  
+
+## Purpose
+In this section, you will include one or two paragraphs providing an overview of your project.  
+Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it!  
+Don’t introduce the project as a Portfolio project for the diploma.  
+In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.  
 
 [Creative Bliss live site](https://creative-bliss-7f2ee6904dd8.herokuapp.com/)  
-[Creative Bliss Facebook page](https://www.facebook.com/people/Creative-Bliss/61573912296649/)
+[Creative Bliss Facebook page](https://www.facebook.com/people/Creative-Bliss/61573912296649/)  
+
+
+## Description [Interactive Responsive E-commerce Website]
+
+**Creative Bliss:** Your Go-To Online Craft Store  
+Creative Bliss is an online marketplace offering unique, handcrafted goods at affordable prices, built to communicate with Stripe for secure payments.  
+
+**Platform Overview**  
+Our e-commerce site is designed to provide a seamless shopping experience, allowing customers to explore a curated collection of artisanal jewelry, paintings, souvenirs, and home décor, crafted with passion by skilled artisans.  
+
+**Why Choose Creative Bliss?**  
+Affordable Prices:  
+We believe quality craftsmanship should be accessible to everyone.  
+
+Authentic & Unique Products:  
+Each item tells a story and reflects creativity.  
+
+Secure & Convenient Transactions:  
+Stripe integration ensures a smooth checkout process.  
+
+Fast & Reliable Delivery:  
+Your handcrafted treasures delivered with care.  
+
+Whether you're looking for a personal keepsake, a thoughtful gift, or an artistic addition to your home, Handmade Treasures is your one-stop destination for handcrafted excellence.  
+
+
+## Target demographics
+
+Handmade craft buyers tend to fall into several key demographic groups, each with distinct motivations and purchasing behaviors:  
+
+#### 1. Age Groups  
+**Millennials & Gen Z (18-35 years old):**  
+This group has shown increasing interest in handmade crafts, valuing authenticity, sustainability, and supporting small businesses.  
+
+**Middle-aged buyers (35-55 years old):**  
+Often purchase crafts for home décor, gifts, or personal collections.  
+
+**Older buyers (55+ years old):**  
+Appreciate craftsmanship and may seek nostalgic or traditional handmade items.  
+
+#### 2. Interests & Motivations  
+**Art Enthusiasts & Collectors:**  
+Those who appreciate unique, handcrafted designs.  
+
+**Eco-conscious Consumers:**  
+Buyers who prefer sustainable, ethically sourced products.  
+
+**Gift Shoppers:**  
+People looking for personalized or meaningful gifts.  
+
+**Tourists & Souvenir Seekers:**  
+Travelers who want locally made crafts as keepsakes.  
+
+**DIY & Craft Hobbyists:**  
+Individuals who enjoy handmade items and may also create their own.  
+
+#### 3. Shopping Behavior  
+**Online Shoppers:**  
+Many buyers prefer e-commerce platforms for convenience.  
+
+**Local Market Supporters:**  
+Some prefer purchasing directly from artisans at craft fairs or boutique stores.  
+
+**Luxury Buyers:**  
+Those willing to pay a premium for exclusive, high-quality handmade items.  
+
+
+## An e-commerce business model
+
+An e-commerce business model for a website that sells handmade, unique art and craft items—such as jewelry, paintings, souvenirs, and more—would likely focus on several key aspects:
+
+#### 1. Business Model Type  
+This e-commerce business falls under the Marketplace Model or Direct-to-Consumer (DTC) Model, depending on whether it's allow multiple artists to sell their work or focus solely on personal creations.  
+
+#### 2. Value Proposition  
+This website offers customers exclusive, handcrafted products with unique designs and artistic craftsmanship.  
+Unlike mass-produced items, these creations have personal touches, cultural significance, and artistry that make them stand out.  
+
+#### 3. Revenue Streams  
+Product Sales: Direct purchases of handmade items.  
+Commission Model: If hosting multiple artists, it can earn a commission on each sale.  
+Subscription Services: A membership model for exclusive early access to new collections or custom-made items.  
+Customized Orders: Offering personalized crafts tailored to customer requests.  
+Workshops & Digital Downloads: Selling tutorials, craft kits, or artistic courses.  
+
+#### 4. Marketing & Customer Engagement  
+SEO & Content Marketing: Blogs, tutorials, and artist stories to engage customers.  
+Social Media & Influencer Collaborations: Using Instagram, Pinterest, and TikTok to showcase craftsmanship.  
+Loyalty Programs & Discounts: Rewarding repeat customers with perks.  
+Email Marketing & Personalized Recommendations: Enhancing customer engagement.  
+
+#### 5. Technology & Platform  
+E-Commerce Platform: Python, Django, PostgreSQL, AWS.  
+Payment Integration: Secure transactions with Stripe, PayPal or other gateways.  
+
+#### 6. Logistics & Fulfillment  
+Handmade Production Workflow: Ensuring quality control and exclusivity.  
+Shipping Strategy: Reliable and cost-effective delivery.  
+Sustainable Packaging: Eco-friendly wrapping to align with artisanal branding.  
+
 
 ## User Stories
 - User Stories created on [GitHub Kanban Board](https://github.com/users/Silver25/projects/7)  
 ![User story label attached to card](Ωssets-readme/04-userstory-label-attached.png)
 
-## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Technology & Features
+
+**Django Web Framework:**  
+Ensures a fast, secure, and scalable backend to power product listings, user accounts, and order management.  
+
+**PostgreSQL Database:**  
+A reliable, high-performance relational database to store product information, customer orders, and transaction history.  
+
+**Stripe Payment Gateway:**  
+Enables secure online payments, supporting multiple currencies and transaction methods.  
+
+**User-Friendly Interface:**  
+Simple and intuitive design for browsing, adding items to cart, and completing purchases hassle-free.  
+
+**Order Tracking & Reliable Delivery:**  
+Customers receive updates from checkout to delivery, ensuring satisfaction.  
+
 
 ### Existing Features
 
@@ -73,9 +196,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - 'Add to Cart' feature for single product to send to Cart, without quantity option 
 
+
 ## Testing and Bugs
 
 - Results of testing or bugs that appear available on another file [Testing.md file](Testing.md) 
+
 
 ## Deployment
 
