@@ -228,7 +228,7 @@ https://docs.djangoproject.com/en/5.1/intro/tutorial01/
 https://www.askpython.com/django/django-app-structure-project-structure  
 https://dev.to/digvijay_singhrajput/django-file-structure-for-developers-4i68  
 https://www.geeksforgeeks.org/how-to-create-an-app-in-django/  
- 
+https://www.w3schools.com/   
 
 ### Content 
 
