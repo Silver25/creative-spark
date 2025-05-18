@@ -120,23 +120,7 @@ Sustainable Packaging: Eco-friendly wrapping to align with artisanal branding.
 ![User story label attached to card](Ωssets-readme/04-userstory-label-attached.png)
 
 
-## Technology & Features
-
-**Django Web Framework:**  
-Ensures a fast, secure, and scalable backend to power product listings, user accounts, and order management.  
-
-**PostgreSQL Database:**  
-A reliable, high-performance relational database to store product information, customer orders, and transaction history.  
-
-**Stripe Payment Gateway:**  
-Enables secure online payments, supporting multiple currencies and transaction methods.  
-
-**User-Friendly Interface:**  
-Simple and intuitive design for browsing, adding items to cart, and completing purchases hassle-free.  
-
-**Order Tracking & Reliable Delivery:**  
-Customers receive updates from checkout to delivery, ensuring satisfaction.  
-
+## Features
 
 ### Existing Features
 
@@ -194,7 +178,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- 'Add to Cart' feature for single product to send to Cart, without quantity option 
+- 'Add to Cart' feature for single/unique product to send to Cart, without quantity option 
 
 
 ## Testing and Bugs
@@ -204,18 +188,31 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Deployment
 
+### Technology
+
+**Django Web Framework:**  
+Ensures a fast, secure, and scalable backend to power product listings, user accounts, and order management.  
+
+**PostgreSQL Database:**  
+A reliable, high-performance relational database to store product information, customer orders, and transaction history.  
+
+**Stripe Payment Gateway:**  
+Enables secure online payments, supporting multiple currencies and transaction methods.  
+
+
 ### Local Deployment
 - Install Python 3.12
 - Clone of the GutHub repo to local environment
 - Create virtual environment with Python 3.12 [to support Django 3.2.25]
 - Create new project 'Boutique' with command: django-admin startproject boutique .
 - Test installation within the browser, running Django server with command: python manage.py runserver
-![Django installed with success](01-django-installation.png) 
-- Update .gitignore file with *.sqlite3, *.pyc and __pycache__
+![Django installed with success](Ωssets-readme/01-django-installation.png) 
+- Update .gitignore file with *.sqlite3, *.pyc, env.py and __pycache__
 - Run the initial migrations with: python manage.py migrate to populate dev db
 - Create superuser for access to Admin area
 
-- The live page on the location: https://github.com/Silver25/
+- The live page on the location: [Creative Bliss live site](https://creative-bliss-7f2ee6904dd8.herokuapp.com/)
+
 
 ### Cloud Deployment
 - On Heroku create a new config variable 'EMAIL_HOST_PASS' and use Google app pwd as an value
@@ -235,6 +232,7 @@ https://www.w3schools.com/
 - The text for some product details adjusted from a [Wikipedia](https://www.wikipedia.org/) articles
 - Instruction for some Django tags used from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons on the site were taken from [Font Awesome](https://fontawesome.com/)
+- Text conversion to ASCII art with https://patorjk.com/software/taag/
 
 ### Media
 
@@ -242,7 +240,11 @@ https://www.w3schools.com/
 
 ### Tools
 
+- MS Windows 11 Pro with activated Sandbox tool - testing installations and setup of new apps or services
 - Microsoft [Visual Studio Code](https://code.visualstudio.com/) - as a great companion and helper through 'valley of the coding'
+- Heroku - The AI PaaS For Deploying, Managing, and Scaling Apps
+- AWS - AWS with services to help build sophisticated applications
+- Stripe - Financial infrastructure to grow revenue
 - [Temporary Email Address](https://temp-mail.org/en/) - for testing purposes
 - [WinMerge](https://winmerge.org/?lang=en) is an Open Source differencing and merging tool - Text comparison
 - [Google Translate](https://translate.google.com/) - translation of the text
