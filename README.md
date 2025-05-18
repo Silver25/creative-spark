@@ -20,6 +20,7 @@ In this section, describe what the project hopes to accomplish, who it is intend
 
 **Creative Bliss:** Your Go-To Online Craft Store  
 Creative Bliss is an online marketplace offering unique, handcrafted goods at affordable prices, built to communicate with Stripe for secure payments.  
+Unique pieces are imbued with the artisan’s skill, dedication, and creativity, making each item a work of art.  
 
 **Platform Overview**  
 Our e-commerce site is designed to provide a seamless shopping experience, allowing customers to explore a curated collection of artisanal jewelry, paintings, souvenirs, and home décor, crafted with passion by skilled artisans.  
