@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 # Allows error messages to be displayed in the process of dev and testing.
 # CommandError: If DEBUG is False you must set 'settings.ALLOWED_HOSTS'.
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'profiles',
     'crispy_forms',
     'storages',
+    'faq',
 ]
 
 MIDDLEWARE = [
