@@ -139,6 +139,12 @@ else:
     }
 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://localhost",
+    "https://*.herokuapp.com"
+]
+
+
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
