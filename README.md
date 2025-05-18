@@ -231,13 +231,15 @@ https://www.w3schools.com/
 ### Content 
 
 - The text for some product details adjusted from a [Wikipedia](https://www.wikipedia.org/) articles
+- Some content used from web site: https://digestley.com/
 - Instruction for some Django tags used from [Specific YouTube Tutorial](https://www.youtube.com/)
+- Tutorial related to Django project from: https://medium.com/django-unleashed/complete-django-project-setup-a-comprehensive-guide-289182b75f3c
 - The icons on the site were taken from [Font Awesome](https://fontawesome.com/)
 - Text conversion to ASCII art with https://patorjk.com/software/taag/
 
 ### Media
 
-- The main header image used for the dev page taken from: <a href="https://www.freepik.com/free-photo/many-colorful-beads-plier-wooden-desk_4635908.htm"> freepik</a>
+- The main header image used for the dev page taken from [Freepik](https://www.freepik.com/free-photo/many-colorful-beads-plier-wooden-desk_4635908.htm)
 
 ### Tools
 

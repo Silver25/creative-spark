@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Frequently Asked Questions</h2>
+                <span>Everything you want to know about DIY handmade unique Arts & Crafts.</span>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-6">
+            <ul>
+                {% for faq in faqs %}
+                <li>
+                    <p class="mt-5"><strong>{{ faq.question }}</strong></p>
+                    <p>
+                    {{ faq.created_at }}<br>
+                    {{ faq.answer }}
+                    </p>
+                </li>
+                {% endfor %}
+            </ul>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
