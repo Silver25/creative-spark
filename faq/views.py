@@ -1,6 +1,11 @@
 from django.shortcuts import render
-from .models import FAQ
+from .models import Faq
 
-def faq_list(request):
-    faqs = FAQ.objects.all()
-    return render(request, 'faq.html', {'faqs': faqs})
+
+def faq(request):
+
+    context = {
+        'faqs': Faq.objects.all(),
+    }
+
+    return render(request, 'faq/faq.html', context)
