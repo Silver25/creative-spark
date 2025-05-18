@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-
 {% load static %}
 
 {% block page_header %}
@@ -43,8 +42,8 @@
                 <div class="col-md-4 text-center">
                     Join our newsletter for updates!
                     <form method="post">
-                    {{ newsletter_form | crispy }}
                     {% csrf_token %}
+                    {{ newsletter_form|crispy }}
                         <button class="btn btn-black rounded-0" type="submit">Subscribe</button>
                     </form>
                 </div>
