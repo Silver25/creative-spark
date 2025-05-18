@@ -43,8 +43,8 @@
                 <div class="col-md-4 text-center">
                     Join our newsletter for updates!
                     <form method="post">
-                    {% csrf_token %}
                     {{ newsletter_form|crispy }}
+                    {% csrf_token %}
                         <button class="btn btn-black rounded-0" type="submit">Subscribe</button>
                     </form>
                 </div>
