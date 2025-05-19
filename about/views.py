@@ -1,3 +1,7 @@
 from django.shortcuts import render
+from .models import About
 
-# Create your views here.
+
+def about_all(request):
+
+    return render(request, "about/about.html")
