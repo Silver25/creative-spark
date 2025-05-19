@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">About Creative Bliss</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-6">
+            {{ about.label_1 }}<br>
+            {{ about.paragraph_1 }}<br>
+            {{ about.label_2 }}<br>
+            {{ about.paragraph_2 }}
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
