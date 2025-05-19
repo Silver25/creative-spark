@@ -22,12 +22,13 @@ from .views import handler404
 urlpatterns = [
     path('', include('home.urls')),
     path('admin/', admin.site.urls),
+    path("about/", include('about.urls')),
     path('accounts/', include('allauth.urls')),
-    path('products/', include('products.urls')),
     path('cart/', include('cart.urls')),
     path('checkout/', include('checkout.urls')),
-    path('profile/', include('profiles.urls')),
     path('faq/', include('faq.urls')),
+    path('products/', include('products.urls')),
+    path('profile/', include('profiles.urls')),
     # path('faq/', include('faq.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'boutique.views.handler404'
