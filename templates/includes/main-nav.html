@@ -37,13 +37,19 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="crafts-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="crafts-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Crafts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="crafts-link">
                 <a href="{% url 'products' %}?category=crafts&sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?category=crafts" class="dropdown-item">All Crafts</a>
             </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'about' %}" id="about-link">
+                About
+            </a>
         </li>
     </ul>
 </div>
