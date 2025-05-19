@@ -124,6 +124,7 @@
         <div class="col bg-black text-white">
           <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
         </div>
+      </div>
     </header>
 
     {% if messages %}
@@ -153,7 +154,7 @@
     {% endblock %}
     
     {% block postloadjs %}
-    <script type="text/javascript">
+    <script>
       $('.toast').toast('show');
     </script>
     {% endblock %}

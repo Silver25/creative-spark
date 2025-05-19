@@ -22,30 +22,38 @@ Primarily, a foundational understanding of the Python environment and Django tem
 ![Home (Landing) page](Ωssets-readme/testing/home-page-first-draft.png)  
 
 - *User Interface (UI)*:  
-- Verified the layout, visual design, and overall user experience. Checked for consistent formatting, proper image loading, and readability across different screen sizes.  
+- Verified the layout, visual design, and overall user experience.  
+- Checked for consistent formatting, proper image loading, and readability across different screen sizes.  
 
 - *Readability*:  
 - Examined displayed text (font family, font size, color contrast).  
 
 - *Navigation*:  
 - Tested all navigation elements like menus, buttons, and links. Ensured they lead to the correct destination pages and function smoothly.  
+- Responsive top navigation elements, change smoothly into 'hamburger menu'
 
 - *Forms & Functionality*:  
 - Tested form (contact) to be sure it submit data correctly, provide clear error messages for invalid inputs, and follow expected functionalities, sending data.  
 
 - *Content Accuracy*:  
-- Reviewed all website content for accuracy, grammar, and spelling mistakes. Verified that descriptions and other information are up-to-date and consistent.  
+- Reviewed all website content for accuracy, grammar, and spelling mistakes.  
+- Verified that descriptions and other information are up-to-date and consistent.  
 
 - *Responsiveness*:  
-- Validated responsiveness of the website loading Dev Tools option of split screen and resized the browser window across different browsers.  
+- Validated responsiveness of the website, with individual pages, loading Dev Tools option of split screen and resized the browser window across different browsers.  
+- Working as expected, responsive containers, icons, images.  
 
 - *Feature - email confirmation*   
 - Email confirmation for the order, sent to Terminal   
 ![Terminal confirmation email](Ωssets-readme/testing/terminal-confirmation-email.png)  
 
-- *Feature - login Admin*  
-- Admin/superuser - login with success  
+- *Feature - Sign In/login*  
+- User - login with success  
 ![Admin login successful](Ωssets-readme/testing/login-admin-success.png)  
+
+- *Feature - Shopping*  
+- Adding item to the cart  
+![Adding item to the shopping cart](Ωssets-readme/testing/adding-item-to-cart.png)  
 
 - *Feature - Product Management*  
 - Add product feature for Admin raised Error message with too long price value  
@@ -69,15 +77,86 @@ Primarily, a foundational understanding of the Python environment and Django tem
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - [W3C validator](https://validator.w3.org/nu)  
+  - Errors repeatedly raised from each page - need to be some template code
+  - Error: Element 'li' not allowed as child of element 'nav' in this context
+  - Error: Duplicate ID user-options
+  - Error: A document must not include both a meta element with an http-equiv attribute
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  - for files base.css, profiles.css
+  - No errors were found when passing through the official validator  
+
 - Lighthouse: **https://pagespeed.web.dev/**  
 - Lighthouse is an open-source, automated Audit tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO, and more. Lighthouse is integrated directly into the Chrome DevTools, under the "Lighthouse" panel.  
 - Lighthouse metrics:
+- Home page  
+![Lighthouse Home page](Ωssets-readme/testing/ligthouse-home-page-mobile.png)  
+- Products page  
+![Lighthouse Product page](Ωssets-readme/testing/ligthouse-product-page.png)  
+- Single Product page  
+![Lighthouse Single product page](Ωssets-readme/testing/ligthouse-single-product-page.png)  
+- Shopping Cart  
+![Lighthouse Shopping Cart](Ωssets-readme/testing/ligthouse-shopping-cart.png)  
+- Checkout page  
+![Lighthouse Checkout page](Ωssets-readme/testing/ligthouse-checkout-page.png)  
+- Sign in page  
+![Lighthouse Sign in page](Ωssets-readme/testing/ligthouse-signin-page.png)  
+- My profile page  
+![Lighthouse My profile page](Ωssets-readme/testing/ligthouse-my-profile-page.png)  
+- Product Management  
+![Lighthouse product Management](Ωssets-readme/testing/ligthouse-product-management-page.png)  
+- FAQs page  
+![Lighthouse FAQs page](Ωssets-readme/testing/ligthouse-faqs-page.png)  
+
 
 - JavaScript: **https://www.jshint.com/**
-- Python: **https://pep8ci.herokuapp.com/**
+ - Files countryfield.js and stripe_elements.js results
+ ![JS countryfield file](Ωssets-readme/testing/js-countryfield-image.png)
+ ![JS stripe_elements file](Ωssets-readme/testing/js-stripe_elements-image.png)  
+
+- Python: **https://pep8ci.herokuapp.com/**  
+- file custom_storages.py
+![Python Linter - custom_storages](Ωssets-readme/testing/py-custom_storages.png)  
+- file profiles\views.py  
+![Python Linter - profiles\views](Ωssets-readme/testing/py-profiles-views.png)  
+- file profiles\models.py  
+![Python Linter - profiles\models](Ωssets-readme/testing/py-profiles-models.png)  
+- file profiles\forms.py  
+![Python Linter - profiles\forms](Ωssets-readme/testing/py-profiles-forms.png)  
+- file products\views.py  
+![Python Linter - products\views](Ωssets-readme/testing/py-products-views.png)  
+- file products\models.py  
+![Python Linter - products\models](Ωssets-readme/testing/py-products-models.png)  
+- file products\forms.py  
+![Python Linter - products\forms](Ωssets-readme/testing/py-products-forms.png)  
+- file  home\views.py  
+![Python Linter - home\views](Ωssets-readme/testing/py-home-views.png)  
+- file home\models.py  
+![Python Linter - home\models](Ωssets-readme/testing/py-home-models.png)  
+- file home\forms.py  
+![Python Linter - home\forms](Ωssets-readme/testing/py-home-forms.png)  
+- file faq\views.py  
+![Python Linter - faq\views](Ωssets-readme/testing/py-faq-views.png)  
+- file faq\models.py  
+![Python Linter - faq\models](Ωssets-readme/testing/py-faq-models.py.png)  
+- file checkout\webhooks.py  
+![Python Linter - checkout\webhooks](Ωssets-readme/testing/py-checkout-webhooks.png)  
+- file checkout\webhook_handler.py  
+![Python Linter - checkout\webhook_handler](Ωssets-readme/testing/py-checkout-webhook_handler.png)  
+- file checkout\views.py  
+![Python Linter - checkout\views](Ωssets-readme/testing/py-checkout-views.png)  
+- file checkout\models.py  
+![Python Linter - checkout\models](Ωssets-readme/testing/py-checkout-models.png)  
+- file checkout\forms.py
+![Python Linter - checkout\forms](Ωssets-readme/testing/py-checkout-forms.png)  
+- file cart\views.py  
+![Python Linter - cart\views](Ωssets-readme/testing/py-cart-views.png)  
+- file cart\contexts.py  
+![Python Linter - cart\contexts](Ωssets-readme/testing/py-cart-contexts.png)  
+- file cart_tools.py  
+![Python Linter - cart_tools](Ωssets-readme/testing/py-cart_tools.png)
 
 
 ## Bugs and Fixtures
@@ -101,6 +180,4 @@ Primarily, a foundational understanding of the Python environment and Django tem
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed.  
-This section should include shortcomings of the frameworks or technologies used.  
-Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.  
+- The About Page in the Django e-commerce site remains incomplete due to an unidentified issue preventing text from rendering or displaying properly.  
