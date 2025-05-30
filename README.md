@@ -176,6 +176,10 @@ The webpage was crafted with a minimalist, sleek, and contemporary aesthetic to 
 ![Mobile wireframes](Ωssets-readme/mobile-wireframes.png)  
 ![Desktop wireframe](Ωssets-readme/desktop-wireframe.png)  
 
+### ERD (Entity Relationship Diagram)
+
+![Graphical representation of db tables](Ωssets-readme/erd.png)
+
 
 ## Features
 
