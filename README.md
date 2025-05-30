@@ -178,7 +178,7 @@ The webpage was crafted with a minimalist, sleek, and contemporary aesthetic to 
 
 ### ERD (Entity Relationship Diagram)
 
-![Graphical representation of db tables](Ωssets-readme/erd.png)
+![Graphical representation of db tables](Ωssets-readme/erd.png)  
 
 
 ## Features
@@ -350,7 +350,7 @@ Enables secure online payments, supporting multiple currencies and transaction m
 
 ### Media
 
-- The main header image used for the dev page taken from [Freepik](https://www.freepik.com/free-photo/many-colorful-beads-plier-wooden-desk_4635908.htm)
+- The main header image used for the dev page taken from [Photo by form PxHere](https://pxhere.com/en/photo/720719)
 - Product images under copyright of my wife
 
 ### Tools
