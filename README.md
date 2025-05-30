@@ -1,4 +1,4 @@
-# Creative Bliss
+# Creative Spark
 
 <details>
 <summary>Responsive visual <b style="color: yellow;">(open here)</b></summary>
@@ -7,22 +7,22 @@
 
 
 ## Purpose
-Creative Bliss is more than just an online marketplace—it’s a celebration of craftsmanship and originality. Built with seamless Stripe integration for secure payments, our platform connects artisans with those who appreciate the beauty of handmade goods. Whether you’re a creator pouring heart and soul into your craft or a discerning shopper looking for one-of-a-kind treasures, Creative Bliss offers affordable, unique pieces that elevate everyday life. Our mission is to empower skilled makers, support small businesses, and provide customers with meaningful, high-quality products that tell a story. In a world of mass production, we champion artistry, ensuring that every purchase feels personal, special, and infused with creativity.    
+Creative Spark is more than just an online marketplace—it’s a celebration of craftsmanship and originality. Built with seamless Stripe integration for secure payments, our platform connects artisans with those who appreciate the beauty of handmade goods. Whether you’re a creator pouring heart and soul into your craft or a discerning shopper looking for one-of-a-kind treasures, Creative Spark offers affordable, unique pieces that elevate everyday life. Our mission is to empower skilled makers, support small businesses, and provide customers with meaningful, high-quality products that tell a story. In a world of mass production, we champion artistry, ensuring that every purchase feels personal, special, and infused with creativity.    
 
-[Creative Bliss live site](https://creative-bliss-7f2ee6904dd8.herokuapp.com/){:target="_blank"}  
-[Creative Bliss Facebook page](https://www.facebook.com/people/Creative-Bliss/61573912296649/){:target="_blank"}  
+[Creative Bliss live site](https://creative-bliss-7f2ee6904dd8.herokuapp.com/)   
+[Creative Bliss Facebook page](https://www.facebook.com/people/Creative-Bliss/61573912296649/)  
 
 
 ## Description [Interactive Responsive E-commerce Website]
 
-**Creative Bliss:** Your Go-To Online Craft Store  
-Creative Bliss is an online marketplace offering unique, handcrafted goods at affordable prices, built to communicate with Stripe for secure payments.  
+**Creative Spark:** Your Go-To Online Craft Store  
+Creative Spark is an online marketplace offering unique, handcrafted goods at affordable prices, built to communicate with Stripe for secure payments.  
 Unique pieces are imbued with the artisan’s skill, dedication, and creativity, making each item a work of art.  
 
 **Platform Overview**  
 Our e-commerce site is designed to provide a seamless shopping experience, allowing customers to explore a curated collection of artisanal jewelry, paintings, souvenirs, and home décor, crafted with passion by skilled artisans.  
 
-**Why Choose Creative Bliss?**  
+**Why Choose Creative Spark?**  
 Affordable Prices:  
 We believe quality craftsmanship should be accessible to everyone.  
 
@@ -40,9 +40,9 @@ Whether you're looking for a personal keepsake, a thoughtful gift, or an artisti
 
 ## Target demographics
 
-Creative Bliss is designed to appeal to a wide audience.  
+Creative Spark is designed to appeal to a wide audience.  
 
-By bringing these groups together, Creative Bliss creates a space where artistry is celebrated, and customers can connect directly with the heart behind each creation. It’s about fostering appreciation for craftsmanship and making high-quality, original pieces accessible.  
+By bringing these groups together, Creative Spark creates a space where artistry is celebrated, and customers can connect directly with the heart behind each creation. It’s about fostering appreciation for craftsmanship and making high-quality, original pieces accessible.  
 
 #### 1. Age Groups  
 **Millennials & Gen Z (18-35 years old):**  
